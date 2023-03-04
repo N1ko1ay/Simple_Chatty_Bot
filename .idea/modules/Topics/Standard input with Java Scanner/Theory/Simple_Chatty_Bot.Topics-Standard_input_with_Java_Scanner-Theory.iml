@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Standard_input_with_Java_Scanner-Theory" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Standard input with Java Scanner/Theory" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Simple Chatty Bot" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Standard input with Java Scanner/Theory">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Standard input with Java Scanner/Theory/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Standard input with Java Scanner/Theory/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Standard input with Java Scanner/Theory/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

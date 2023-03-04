@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <b>Code:</b><br>applesCount = 40<br>applesCount = 10
+- text: <b>Code:</b><br>applesCount = 30
+- text: <b>Code:</b><br>println(applesCount)
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17414#comment
+status: Solved
+record: -1
+local_check: false

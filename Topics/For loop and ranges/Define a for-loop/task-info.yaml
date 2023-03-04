@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "for (i = 0; i &lt; 10; i++) {}"
+- text: "for (i in 'z' downTo 'e' step 20) {}"
+- text: "for (i in \"aa\"..\"ad\") {}"
+- text: "for (i in 20 before -20) {}"
+- text: "for (i in 20 down -20 step 2) {}"
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5970#comment
+status: Solved
+record: -1
+local_check: false

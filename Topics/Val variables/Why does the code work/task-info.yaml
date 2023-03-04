@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The val keyword does not work with lists.
+- text: "The val keyword does not prohibit changing the internal state of the list,\
+    \ it only prohibits reassigning the variable."
+- text: The val keyword allows changing the value of a variable once.
+- text: This is a lie – the code does not work at all!
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17409#comment
+status: Solved
+record: -1
+custom_name: Why does the code work?
+local_check: false

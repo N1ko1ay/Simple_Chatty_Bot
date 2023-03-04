@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        const val CONST: Int
+        val listNumber = mutableListOf<Int>()
+        CONST = 100
+        listNumber.add(CONST * CONST)
+        listNumber.add(CONST * CONST * CONST)
+        listNumber.add(CONST * CONST * CONST * CONST)
+        println(listNumber)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24248#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 25 Feb 2023 03:23:28 UTC"
+record: -1

@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Declare it with the <code>val</code> keyword.
+- text: Write its name in all caps.
+- text: Assign a special value to it.
+- text: Declare it with the <code>var</code> keyword.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17411#comment
+status: Solved
+record: -1
+local_check: false

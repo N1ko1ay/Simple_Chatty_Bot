@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <b>Input:</b><br>Hello 100 Hello
+- text: <b>Input:</b><br>Hello<br>100 Hello
+- text: <b>Input:</b><br>Hello<br>100<br>Hello
+- text: <b>Input:</b><br>Hello 100<br>Hello
+- text: <b>Input:</b><br>Hello Hello Hello<br>100 Hello
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4452#comment
+status: Solved
+record: -1
+custom_name: Successful reading
+local_check: false
